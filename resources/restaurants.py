@@ -2,7 +2,7 @@ from flask import request
 import json
 from flask_restful import Resource
 from Model import db, Restaurant, RestaurantSchema
-import asyncio
+#esto es un cambio en una nueva brnach
 
 restaurants_schema = RestaurantSchema(many=True)
 restaurant_schema = RestaurantSchema()
